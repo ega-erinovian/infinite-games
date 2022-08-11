@@ -12,7 +12,7 @@
     <div class="content container text-light">
 
         <h1 class="about-title"><?= $data['title'];?></h1>
-        <p class="py-3 about-text"><?= $data['desc'] ?></p>
+        <p class="py-3 about-text"><?= $data['desk'] ?></p>
         <div class="row">
             <div class="col-md-6 mb-2">
                 <iframe class="about-video" width="100%" height="100%"

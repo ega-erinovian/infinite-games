@@ -36,7 +36,6 @@
                             $bg_img = $data[9];
                         }
                     }
-                    // 'Delete' conditional
                 }
                 ?>
             <!-- Form -->
@@ -83,7 +82,7 @@
             </div>
             <div class="col-6 mb-3">
                 <label for="img-form" class="form-label">Upload Image</label>
-                <input type="file" class="form-control" id="img-form" name="img" value="<?= $bg_img?>">
+                <input type="file" class="form-control" id="img-form" name="img">
             </div>
             <div class="col-12 mb-3 text-end">
                 <button type="reset" class="btn btn-secondary">Reset</button>
